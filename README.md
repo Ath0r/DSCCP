@@ -1,6 +1,6 @@
 # A PyTorch Implementation of DSCCP
 
-Dynamic Strip Convolution Characterized Plugin for Medical Anatomy Segmentation**Co-occurrence Feature Learning from Skeleton Data for Action Recognition and Detection with Hierarchical Aggregation**.
+Dynamic Strip Convolution Characterized Plugin for Medical Anatomy Segmentation
 Guyue Hu, Yukun Kang, Gangming Zhao, Zhe Jin, Chenglong Li, and Jin Tang
 
 ### **Abstract**
