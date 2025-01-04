@@ -39,7 +39,7 @@ Our code is based on **Python3.5**. There are a few dependencies to run the code
 
 ##### Synapse
 
-Download the Synapse dataset from ([https://drive.google.com/file/d/115-vkjCapans\_Mx3EXLxZsxr\_WSbpXxm/view?usp=sharing](https://drive.google.com/file/d/115-vkjCapans_Mx3EXLxZsxr_WSbpXxm/view?usp=sharing))
+Download the Synapse dataset from ([https://drive.google.com/file/d/115-vkjCapans\_Mx3EXLxZsxr\_WSbpXxm/view?usp=sharing](https://drive.google.com/file/d/115-vkjCapans_Mx3EXLxZsxr_WSbpXxm/view?usp=sharing)) and place the training set and test set in Synapse_Dataset\train_npz and Synapse_Dataset\test_vol_h5, respectively.
 
 ##### Other Datasets
 
