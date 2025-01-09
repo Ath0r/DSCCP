@@ -63,7 +63,9 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
 
 #### Table
 
-TODO
+<div align="center">
+    <img src="resource/CXRS_Table.png">
+</div>
 
 #### Visualization
 
