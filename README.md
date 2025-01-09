@@ -67,7 +67,9 @@ TODO
 
 #### Visualization
 
-TODO
+<div align="center">
+    <img src="resource/CXRS_Visualization">
+</div>
 
 ## Reference
 
