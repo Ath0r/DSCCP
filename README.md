@@ -21,7 +21,7 @@ Medical anatomy segmentation is essential for computer-aided diagnosis and lesio
 
 #### 3. Visualization
 
-* [ ]  CXRS
+* [X]  CXRS
 * [ ]  Synapse
 
 ## Prerequisites
