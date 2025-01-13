@@ -1,4 +1,4 @@
-# A PyTorch Implementation of DSCCP
+ # A PyTorch Implementation of DSCCP
 
 Dynamic Strip Convolution Characterized Plugin for Medical Anatomy Segmentation                        
 Guyue Hu, Yukun Kang, Gangming Zhao, Zhe Jin, Chenglong Li, and Jin Tang
@@ -22,7 +22,7 @@ Medical anatomy segmentation is essential for computer-aided diagnosis and lesio
 #### 3. Visualization
 
 * [X]  CXRS
-* [ ]  Synapse
+* [X]  Synapse
 
 ## Prerequisites
 
@@ -67,10 +67,19 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
     <img src="resource/CXRS_Table.png">
 </div>
 
+<div align="center">
+    <img src="resource/Synapse_Table.png">
+</div>
+
+
 #### Visualization
 
 <div align="center">
     <img src="resource/CXRS_Visualization.png">
+</div>
+
+<div align="center">
+    <img src="resource/Synapse_Visualization.png">
 </div>
 
 ## Reference
