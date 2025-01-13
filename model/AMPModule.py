@@ -29,20 +29,20 @@ class LocalCrossAttentionModule(nn.Module):
         Automatically pads the edges to handle border cases.
         """
         _, _, height, width = x.size()
-        pad_size = expansion_factor * 1  # 填充大小，根据需要调整
+        pad_size = expansion_factor * 1  # Padding size, adjust as needed
 
-        # 在所有边界上进行填充
+        # Pad all boundaries
         x_padded = F.pad(x, (pad_size, pad_size, pad_size, pad_size), mode='constant', value=0)
 
-        # 更新高度和宽度
+        # Update height and width
         height_padded, width_padded = x_padded.shape[2], x_padded.shape[3]
 
-        # 调整中心点以考虑填充
+        # Adjust the center point to account for padding
         center_padded = (center[0] + pad_size, center[1] + pad_size)
 
-        # 计算提取区域的起始和结束索引
+        # Calculate the start and end indices for the extraction region
         start_x = max(center_padded[0] - pad_size, 0)
-        end_x = min(center_padded[0] + pad_size + 1, width_padded)  # +1 因为范围是包含性的
+        end_x = min(center_padded[0] + pad_size + 1, width_padded)  # +1 because the range is inclusive
         start_y = max(center_padded[1] - pad_size, 0)
         end_y = min(center_padded[1] + pad_size + 1, height_padded)
 
@@ -69,7 +69,7 @@ class LocalCrossAttentionModule(nn.Module):
                 k = self.key_linear(local_kv_flat).view(batch_size, -1, self.heads, self.dim_feedforward)
                 v = self.value_linear(local_kv_flat).view(batch_size, -1, self.heads, self.dim_feedforward)
 
-                # 调整形状以进行注意力计算
+                # Reshape for attention computation
                 q = q.permute(0, 2, 1, 3)
                 k = k.permute(0, 2, 1, 3)
                 v = v.permute(0, 2, 1, 3)
