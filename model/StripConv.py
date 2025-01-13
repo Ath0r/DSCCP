@@ -50,10 +50,10 @@ class StripConv(nn.Module):
         self.gn = nn.GroupNorm(out_channels // 4, out_channels)
         self.relu = nn.ReLU(inplace=True)
         self.tanh = nn.Tanh()
-        # 学习垂直分量offset的卷积
+        # Convolution for learning the vertical component offset
         self.offset_conv = nn.Conv2d(in_channels, kernel_size, 3, padding=1)
 
-        # 学习角度θ的卷积
+        # Convolution for learning the angle θ
         self.theta_conv = nn.Conv2d(in_channels, kernel_size, 5, padding=2) 
 
         self.strip_conv = nn.Conv2d(
@@ -67,11 +67,11 @@ class StripConv(nn.Module):
     def forward(self, input: torch.Tensor):
         # Predict offset map between [-1, 1]
         offset = self.offset_conv(input)
-        # 初始化offset
+        # Initialize offset
         # size = (input.shape[0], self.kernel_size, input.shape[2], input.shape[3])
         # offset = torch.rand(size)
         # offset = offset * 2 - 1 
-        # offset = offset.to(self.device)   # 将tensor 存入gpu中
+        # offset = offset.to(self.device)   # Move tensor to GPU
 
         # offset = self.bn(offset)
         offset = self.gn_offset(offset) 
@@ -144,7 +144,7 @@ def get_coordinate_map_2D(
     x: -num_points//2 ~ num_points//2 (Determined by the kernel size)
     """
     y_spread_ = torch.linspace(-center, center, kernel_size, device=device)    
-    x_spread_ = torch.linspace(-center, center, kernel_size, device=device)  # 以kernel_size是9为例，卷积采样范围为[-4,4]
+    x_spread_ = torch.linspace(-center, center, kernel_size, device=device)  
 
     y_grid_ = einops.repeat(y_spread_, "k -> k w h", w=width, h=height)
     x_grid_ = einops.repeat(x_spread_, "k -> k w h", w=width, h=height)
