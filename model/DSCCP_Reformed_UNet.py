@@ -88,7 +88,7 @@ class DoubleConvolution(nn.Module):
             self.bn2,
             self.act2,
         ) 
-        # 加入局部宏观感知注意力
+        # Add local macro-aware attention
         self.amp = LocalCrossAttentionModule(in_dim = in_channels, out_dim = 3 * out_channels, expansion_factor = 3)
         # self.se = SEAttention(3 * out_channels)
         
