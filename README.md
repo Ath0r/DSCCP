@@ -16,8 +16,7 @@ Medical anatomy segmentation is essential for computer-aided diagnosis and lesio
 
 #### 2. Tasks
 
-- [X]  2D Medical Anatomy Segmentation
-- [ ]  3D Medical Anatomy Segmentation
+- [X]  Medical Image Anatomy Segmentation
 
 #### 3. Visualization
 
