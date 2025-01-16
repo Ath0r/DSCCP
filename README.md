@@ -9,12 +9,12 @@ Medical anatomy segmentation is essential for computer-aided diagnosis and lesio
 
 ## Features
 
-#### 1. Dataset
+#### 1. Datasets
 
 - [X]  Synapse
 - [ ]  DRIVE
 
-#### 2. Tasks
+#### 2. Task
 
 - [X]  Medical Anatomy Segmentation
 
