@@ -1,4 +1,4 @@
- # The official PyTorch Implementation of DSC-AMP
+ # The Official Implementation of DSC-AMP
 
 Dynamic Strip Convolution and Adaptive Morphology Perception Plugin for Medical Anatomy Segmentation                        
 Guyue Hu, Yukun Kang, Gangming Zhao, Zhe Jin, Chenglong Li, and Jin Tang
