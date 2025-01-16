@@ -1,6 +1,6 @@
- # A PyTorch Implementation of DSCCP
+ # The official PyTorch Implementation of DSC-AMP
 
-Dynamic Strip Convolution Characterized Plugin for Medical Anatomy Segmentation                        
+Dynamic Strip Convolution and Adaptive Morphology Perception Plugin for Medical Anatomy Segmentation                        
 Guyue Hu, Yukun Kang, Gangming Zhao, Zhe Jin, Chenglong Li, and Jin Tang
 
 ### **Abstract**
@@ -16,9 +16,9 @@ Medical anatomy segmentation is essential for computer-aided diagnosis and lesio
 
 #### 2. Tasks
 
-- [X]  Medical Image Anatomy Segmentation
+- [X]  Medical Anatomy Segmentation
 
-#### 3. Visualization
+#### 3. Visualization Results
 
 * [X]  CXRS
 * [X]  Synapse
@@ -29,20 +29,20 @@ Our code is based on **Python3.5**. There are a few dependencies to run the code
 
 - Python == 3.10
 - **PyTorch >= 2.0.0**
-- Tensorboard
+- TensorboardX
 - Other version info about some Python packages can be found in `requirements.txt`
 
 ## Usage
 
-#### Data preparation
+#### Data Preparation
 
-##### Synapse
+##### Synapse Dataset
 
 Download the Synapse dataset from ([https://drive.google.com/file/d/115-vkjCapans\_Mx3EXLxZsxr\_WSbpXxm/view?usp=sharing](https://drive.google.com/file/d/115-vkjCapans_Mx3EXLxZsxr_WSbpXxm/view?usp=sharing)) and place the training set and test set in Synapse_Dataset\train_npz and Synapse_Dataset\test_vol_h5, respectively.
 
-##### Other Datasets
+##### CXRS Dataset
 
-Not supported now.
+Waiting till the dataset is opened.
 
 #### Training
 
