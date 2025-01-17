@@ -19,7 +19,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 
 from Synapse_Dataset.datasets.dataset_synapse import Synapse_dataset
-from model.DSCCP_Reformed_UNet import UNet
+from model.DSCAMP_Reformed_UNet import UNet
 from utils.utils import test_single_volume
 
 parser = argparse.ArgumentParser()
