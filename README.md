@@ -3,9 +3,9 @@
 **Dynamic Strip Convolution and Adaptive Morphology Perception Plugin for Medical Anatomy Segmentation**                        
 Guyue Hu, Yukun Kang, Gangming Zhao, Zhe Jin, Chenglong Li, and Jin Tang
 
-Paper:[Paper Fulltext](resource/Dynamic_Strip_Convolution_and_Adaptive_Morphology_Perception_Plugin_for_Medical_Anatomy_Segmentation.pdf)
+Paper: [Paper Fulltext](resource/Dynamic_Strip_Convolution_and_Adaptive_Morphology_Perception_Plugin_for_Medical_Anatomy_Segmentation.pdf)
 
-Code:[Model Code](model)
+Code: [Model Code](model)
 
 ### **Abstract**
 
