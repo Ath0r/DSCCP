@@ -17,7 +17,7 @@ import torch
 import torch.backends.cudnn as cudnn
 # from networks.Unet_strip_se import UNet
 # from networks.Unet import UNet
-from model.DSCCP_Reformed_UNet import UNet
+from model.DSC-AMP_Reformed_UNet import UNet
 # from networks.vit_seg_modeling import VisionTransformer as ViT_seg
 # from networks.vit_seg_modeling import CONFIGS as CONFIGS_ViT_seg
 from trainer import trainer_synapse
