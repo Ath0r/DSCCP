@@ -85,12 +85,13 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
     <img src="resource/SMOS_visu.png">
 </div>
 
+
+## Appendix
+
 - Figure S1 -Deep Layer Activation Map
 <div align="center">
     <img src="resource/deep_layer.png">
 </div>
-#### Appendix
-TODO
 
 ## Reference
 
