@@ -12,7 +12,7 @@ Medical anatomy segmentation is essential for computer-aided diagnosis and lesio
 #### 1. Datasets
 
 - [X]  Synapse
-- [ ]  DRIVE
+- [ ]  CXRS
 
 #### 2. Task
 
