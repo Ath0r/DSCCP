@@ -38,7 +38,7 @@ Our code is based on **Python3.5**. There are a few dependencies to run the code
 
 ##### Synapse Dataset
 
-Download the Synapse dataset from ([https://drive.google.com/file/d/115-vkjCapans\_Mx3EXLxZsxr\_WSbpXxm/view?usp=sharing](https://drive.google.com/file/d/115-vkjCapans_Mx3EXLxZsxr_WSbpXxm/view?usp=sharing)) and place the training set and test set in Synapse_Dataset\train_npz and Synapse_Dataset\test_vol_h5, respectively.
+Download the Synapse dataset from ([Synapse Dataset Download](https://help.synapse.org/docs/Datasets.2611281979.html) and place the training set and test set in Synapse_Dataset\train_npz and Synapse_Dataset\test_vol_h5, respectively.
 
 ##### CXRS Dataset
 
@@ -84,7 +84,8 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
 <div align="center">
     <img src="resource/SMOS_visu.png">
 </div>
-- Figure S1 -Deep layer activation map
+
+- Figure S1 -Deep Layer Activation Map
 <div align="center">
     <img src="resource/deep_layer.png">
 </div>
