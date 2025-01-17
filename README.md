@@ -7,7 +7,7 @@ Paper: [Paper Fulltext](resource/Dynamic_Strip_Convolution_and_Adaptive_Morpholo
 
 Code: [Model Code](model)
 
-Appendix: [Appendix Paper](#Appendix)
+Appendix: [Appendix](#Appendix)
 
 ### **Abstract**
 
