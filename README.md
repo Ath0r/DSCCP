@@ -85,6 +85,9 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
     <img src="resource/SMOS_visu.png">
 </div>
 
+#### Appendix
+TODO
+
 ## Reference
 
 [1] Qi Y, He Y, Qi X, et al. Dynamic snake convolution based on topological geometric constraints for tubular structure segmentation. ICCV 2023.
