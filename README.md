@@ -1,6 +1,6 @@
  # The Official Implementation of DSC-AMP
 
-Dynamic Strip Convolution and Adaptive Morphology Perception Plugin for Medical Anatomy Segmentation                        
+**Dynamic Strip Convolution and Adaptive Morphology Perception Plugin for Medical Anatomy Segmentation**                        
 Guyue Hu, Yukun Kang, Gangming Zhao, Zhe Jin, Chenglong Li, and Jin Tang
 
 ### **Abstract**
@@ -42,7 +42,7 @@ Download the Synapse dataset from ([https://drive.google.com/file/d/115-vkjCapan
 
 ##### CXRS Dataset
 
-Waiting till the dataset is opened.
+Waiting till the dataset is open.
 
 #### Training
 
