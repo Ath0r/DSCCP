@@ -46,13 +46,15 @@ Waiting till the dataset is open.
 
 #### Training
 
+For the training procedure, you should run the command line below
+
 ```To
 python train.py --dataset Syanpse --root_path your DATA_DIR --max_epochs 400 --output_dir your OUT_DIR  --img_size 224 --base_lr 0.05 --batch_size 24
 ```
 
 #### Testing
 
-To run the testing procedure, you should run the command line below
+For the testing procedure, you should run the command line below
 
 ```commandline
 python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --output_dir your OUT_DIR --max_epoch 400 --base_lr 0.05 --img_size 224 --batch_size 24
@@ -87,4 +89,4 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
 
 [1] Qi Y, He Y, Qi X, et al. Dynamic snake convolution based on topological geometric constraints for tubular structure segmentation. ICCV 2023.
 
-[2] [BRAU-Net++](https://github.com/Caipengzhou/BRAU-Netplusplus): referred for some code of Synpase dataset processing.
+[2] [BRAU-Net++](https://github.com/Caipengzhou/BRAU-Netplusplus): referred for some code for processing Synpase dataset.
