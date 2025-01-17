@@ -68,7 +68,7 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
 
 - Synapse
 <div align="center">
-    <img src="resource/Synapse_table.png">
+    <img src="resource/SMOS_table.png">
 </div>
 
 
@@ -80,7 +80,7 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
 
 - Synapse
 <div align="center">
-    <img src="resource/Synapse_visu.png">
+    <img src="resource/SMOS_visu.png">
 </div>
 
 ## Reference
