@@ -2,6 +2,8 @@
 
 **Dynamic Strip Convolution and Adaptive Morphology Perception Plugin for Medical Anatomy Segmentation**                        
 Guyue Hu, Yukun Kang, Gangming Zhao, Zhe Jin, Chenglong Li, and Jin Tang
+Paper:
+Code:
 
 ### **Abstract**
 
