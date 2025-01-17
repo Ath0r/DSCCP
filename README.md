@@ -63,28 +63,31 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
 ## Results
 
 #### Table
-- CXRS
+- Table 1 -CXRS
 <div align="center">
     <img src="resource/CXRS_table.png">
 </div>
 
-- Synapse
+- Table 2 -Synapse
 <div align="center">
     <img src="resource/SMOS_table.png">
 </div>
 
 
 #### Visualization
-- CXRS
+- Figure 1 -CXRS
 <div align="center">
     <img src="resource/CXRS_visu.png">
 </div>
 
-- Synapse
+- Figure 2 -Synapse
 <div align="center">
     <img src="resource/SMOS_visu.png">
 </div>
-
+- Figure S1 -Deep layer activation map
+<div align="center">
+    <img src="resource/deep_layer.png">
+</div>
 #### Appendix
 TODO
 
