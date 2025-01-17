@@ -38,7 +38,7 @@ Our code is based on **Python3.5**. There are a few dependencies to run the code
 
 ##### Synapse Dataset
 
-Download the Synapse dataset from ([Synapse Dataset Download](https://help.synapse.org/docs/Datasets.2611281979.html) and place the training set and test set in Synapse_Dataset\train_npz and Synapse_Dataset\test_vol_h5, respectively.
+Download the Synapse dataset from ([Synapse Dataset Download](https://help.synapse.org/docs/Datasets.2611281979.html)) and place the training set and test set in Synapse_Dataset\train_npz and Synapse_Dataset\test_vol_h5, respectively.
 
 ##### CXRS Dataset
 
