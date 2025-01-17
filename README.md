@@ -63,24 +63,24 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
 #### Table
 - CXRS
 <div align="center">
-    <img src="resource/CXRS_Table.png">
+    <img src="resource/CXRS_table.png">
 </div>
 
 - Synapse
 <div align="center">
-    <img src="resource/Synapse_Table.png">
+    <img src="resource/Synapse_table.png">
 </div>
 
 
 #### Visualization
 - CXRS
 <div align="center">
-    <img src="resource/CXRS_Visualization.png">
+    <img src="resource/CXRS_visu.png">
 </div>
 
 - Synapse
 <div align="center">
-    <img src="resource/Synapse_Visualization.png">
+    <img src="resource/Synapse_visu.png">
 </div>
 
 ## Reference
